@@ -7,3 +7,27 @@
 .app-header {
   min-height: 100px;
 }
+
+.logo {
+  height: 70px;
+}
+
+.content-area {
+  min-height: 70px;
+  background-color: black;
+  color: white;
+  padding: 1.5rem 0;
+}
+
+.browse-area {
+  min-height: 150px;
+}
+
+.icon {
+  height: 60px;
+}
+
+.link {
+  color: white;
+  padding: 0 1rem;
+}
