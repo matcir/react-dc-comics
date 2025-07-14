@@ -6,12 +6,7 @@ export default function() {
     return (
         <>
             <AppContent/>
-         
             <AppBrowse/>
-        
-        {/* <div>
-            <AppAboutUs/>
-        </div>  */}
         </>
     )
 }
