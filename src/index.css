@@ -123,5 +123,7 @@ h4 {
 
 #sign-up {
   color: white;
-  border: 2px solid #0d6dc6;
+  border: 3px solid #0d6dc6;
+  background-color: transparent;
+  padding: 1rem;
 }

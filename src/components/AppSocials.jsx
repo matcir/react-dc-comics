@@ -5,7 +5,7 @@ export default function() {
             <div className="container">
                 <div className="d-flex justify-content-between">
                     <div className="my-4 mx-5">
-                        <button id="sign-up" className="btn">SIGN-UP NOW!</button>
+                        <button id="sign-up">SIGN-UP NOW!</button>
                     </div>
                     <div className="my-4 mx-5">
                         <span id="follow" className="px-3">FOLLOW US</span>

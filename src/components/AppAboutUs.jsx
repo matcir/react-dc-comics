@@ -7,17 +7,17 @@ export default function() {
                     <ul>
                         <li><h4>DC COMICS</h4></li>
                         <li>Characters</li>
-                        <li>Characters</li>
-                        <li>Characters</li>
-                        <li>Characters</li>
-                        <li>Characters</li>
-                        <li>Characters</li>
-                        <li>Characters</li>
+                        <li>Comics</li>
+                        <li>Movies</li>
+                        <li>TV</li>
+                        <li>Games</li>
+                        <li>Videos</li>
+                        <li>News</li>
                     </ul>
                     <ul>
                         <li><h4>SHOP</h4></li>
-                        <li>Characters</li>
-                        <li>Characters</li>
+                        <li>Shop DC</li>
+                        <li>Shop DC Collectibles</li>
                     </ul>
                     
                 </div>
