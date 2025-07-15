@@ -1,23 +1,20 @@
 import Logo from "./AppDCLogo"
+import links from "../database/links"
 
 export default function() {
+
     return (
         <>
         <header className="app-header container justify-content-between">
             <nav className="navbar navbar-expand-lg d-flex justify-content-between">
                 <Logo />
-                <div className="navbar-nav">
-                    <a className="nav-item nav-link" href="#">CHARACTERS</a>
-                    <a className="nav-item nav-link" href="#">COMICS</a>
-                    <a className="nav-item nav-link" href="#">MOVIES</a>
-                    <a className="nav-item nav-link" href="#">TV</a>
-                    <a className="nav-item nav-link" href="#">GAMES</a>
-                    <a className="nav-item nav-link" href="#">COLLECTIBLES</a>
-                    <a className="nav-item nav-link" href="#">VIDEOS</a>
-                    <a className="nav-item nav-link" href="#">FANS</a>
-                    <a className="nav-item nav-link" href="#">NEWS</a>
-                    <a className="nav-item nav-link" href="#">SHOP</a>
-                </div>
+                <ul className="navbar-nav">
+                    {links.map((link, id) => (
+                        <li key={id}>
+                            <a className="nav-item nav-link" href={link.href}>{link.text}</a>
+                        </li>
+                    ))}
+                </ul>
             </nav>
         </header>
         </>
