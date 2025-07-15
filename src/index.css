@@ -18,11 +18,51 @@
   height: 70px;
 }
 
-.content-area {
-  min-height: 70px;
-  background-color: black;
+.app-jumbo {
+  min-height: 400px;
+  background-image: url("img/jumbotron.jpg");
+  background-size: cover;
+}
+
+.app-series {
+  background-color: #1c1c1c;
+  min-height: 500px;
+}
+
+.card-img-top {
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+}
+
+.thumb-img {
+  aspect-ratio: 1/1;
+  height: 100%;
+  width: auto;
+  transform: scale(1.5);
+}
+
+.card-body {
   color: white;
-  padding: 1.5rem 0;
+}
+
+.current,
+.load-more {
+  color: white;
+  border: none;
+}
+
+.load-more {
+  width: 200px;
+  margin: auto;
+}
+
+.current {
+  width: 170px;
+  position: absolute;
+  top: -4%;
+  left: 4%;
+  transform: scale(1.4);
 }
 
 .browse-area {

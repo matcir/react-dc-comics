@@ -1,11 +1,12 @@
-import AppContent from "./AppContent"
+import  AppJumbo from "./AppJumbo"
 import AppBrowse from "./AppBrowse"
-// import AppAboutUs from "./AppAboutUs"
+import AppSeries from "./AppSeries"
 
 export default function() {
     return (
         <>
-            <AppContent/>
+            <AppJumbo/>
+            <AppSeries/>
             <AppBrowse/>
         </>
     )
