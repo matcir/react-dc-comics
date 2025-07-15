@@ -106,7 +106,7 @@
   font-size: small;
 }
 
-li h4 {
+.footer-about-us h4 {
   color: white;
   font-weight: 700;
 }
@@ -126,4 +126,9 @@ h4 {
   border: 3px solid #0d6dc6;
   background-color: transparent;
   padding: 1rem;
+}
+
+li a {
+  color: grey;
+  text-decoration: none;
 }
