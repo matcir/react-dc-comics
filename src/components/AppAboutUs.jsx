@@ -12,7 +12,7 @@ export default function() {
                 <div className="p-3">
                     <h4>DC COMICS</h4>
                     <ul className="list-unstyled"> 
-                        {comicsDCLinks.map((link,id) => (
+                        {comicsDCLinks.map((link) => (
                             <li key={link.id}>
                                 <a href={link.href}>{link.name}</a>
                             </li>
@@ -22,8 +22,8 @@ export default function() {
 
                     <h4>SHOP</h4>
                     <ul className="list-unstyled">
-                        {comicsShopLinks.map((link, id) => (
-                            <li key={link.id}> 
+                        {comicsShopLinks.map((link) => (
+                            <li key={`shop-${link.id}`}> 
                                 <a href={link.href}>{link.name}</a>
                             </li>
                         ))}
@@ -35,8 +35,8 @@ export default function() {
                     
                     <h4>DC</h4>
                     <ul className="list-unstyled">
-                        {comicsDCInfo.map((link, id) => (
-                            <li key={link.id}>
+                        {comicsDCInfo.map((link) => (
+                            <li key={`info-${link.id}`}>
                                 <a href={link.href}>{link.name}</a>
                             </li>
                         ))}
@@ -48,8 +48,8 @@ export default function() {
                     
                     <h4>SITES</h4>
                     <ul className="list-unstyled">
-                        {comicsDCSites.map((link, id) => (
-                            <li key={link.id}>
+                        {comicsDCSites.map((link) => (
+                            <li key={`sites-${link.id}`}>
                                 <a href={link.href}>{link.name}</a>
                             </li>
                         ))}

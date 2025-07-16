@@ -5,7 +5,7 @@ const comicsShopLinks = [
     href: "#",
   },
   {
-    id: 1,
+    id: 2,
     name: "Shop DC Collectibles",
     href: "#",
   },

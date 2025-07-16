@@ -1,4 +1,5 @@
 import series from "../database/comics"
+import Card from "./Card"
 
 export default function() {
    
@@ -7,15 +8,8 @@ export default function() {
         <div className="app-series">
             <div className="container position-relative">               
                 <div className="row row-cols-6 py-5 ps-4">
-                    {series.map((serie, id) => (
-                        <div key={serie.id} className="col pb-2">
-                            <div className="card-img-top">                                                           
-                                <img className="thumb-img" src={serie.thumb} alt={serie.title}/>
-                            </div>   
-                            <div className="card-body">
-                                <p className="py-2">{serie.series}</p>
-                            </div>
-                        </div>
+                    {series.map((serie) => (
+                        <Card key={serie.id} serie={serie} />
                     ))}                  
                 </div>  
                 <div>
